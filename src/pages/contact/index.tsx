@@ -1,6 +1,6 @@
+import { FaGithub, FaLinkedin, FaWhatsapp, FaEnvelope, FaDownload } from 'react-icons/fa';
 import { HeaderTitle } from "../../components/HeaderTitle";
 import { useTheme } from "../../context/theme";
-import { FaGithub, FaLinkedin, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 
 export const Contact = () => {
   const { isDarkMode } = useTheme();
@@ -13,7 +13,7 @@ export const Contact = () => {
       <div className="flex-grow flex items-start justify-center">
         <HeaderTitle level="h4" children="contact me" align="center" />
       </div>
-      <ul className="flex justify-center py-16 pb-20  space-x-6 list-none" role="list" aria-label="Redes Sociais">
+      <ul className="flex justify-center py-16 pb-20 space-x-6 list-none" role="list" aria-label="Redes Sociais">
         <li>
           <a
             href="https://github.com/cristianmeelo"
@@ -73,6 +73,16 @@ export const Contact = () => {
           </a>
         </li>
       </ul>
+      <div className="flex flex-row w-full items-center justify-center">
+        <a
+          href="/documents/curriculum-cristian-melo-frontend-react.pdf"
+          download="curriculum-cristian-melo-frontend-react.pdf"
+          className="flex items-center text-black px-4 py-2"
+        >
+          download CV
+          <FaDownload className="ml-2" />
+        </a>
+      </div>
       <div className={`h-px w-full mt-8 ${isDarkMode ? 'bg-dark-text' : 'bg-custom-gray'}`} />
     </section>
   );
