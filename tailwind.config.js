@@ -5,16 +5,17 @@ export default {
     extend: {
       colors: {
         'custom-gray': '#e7e7e7',
+        'custom-gray-80': '#808080',
         'dark-bg': '#1f1f1f', // Background color for dark mode
         'light-bg': '#ffffff', // Background color for light mode
         'dark-text': '#ffffff', // Text color for dark mode
-        'light-text': '#000000' // Text color for light mode
+        'light-text': '#000000', // Text color for light mode
       },
       fontFamily: {
         manrope: ['Manrope', 'sans-serif'],
-        dotgothic: ['DotGothic16', 'sans-serif']
-      }
-    }
+        dotgothic: ['DotGothic16', 'sans-serif'],
+      },
+    },
   },
-  plugins: []
-}
+  plugins: [],
+};
