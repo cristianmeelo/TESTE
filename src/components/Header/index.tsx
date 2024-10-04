@@ -1,11 +1,12 @@
-import ReactAudioPlayer from 'react-audio-player';
-import url from '/audio/aboutme.mp3';
 import { useState, useRef } from 'react';
-import { Button } from '../button';
-import { useTheme } from '../../context/theme'; // Importe o contexto de tema
+import ReactAudioPlayer from 'react-audio-player';
+
+import url from '/audio/aboutme.mp3';
+import { Button } from '../Button';
+import { useTheme } from '../../context/theme';
 
 export const Header = () => {
-  const { isDarkMode } = useTheme(); // Acesse o estado do tema
+  const { isDarkMode } = useTheme();
   const [showPlayer, setShowPlayer] = useState(false);
   const audioPlayer = useRef(null);
 

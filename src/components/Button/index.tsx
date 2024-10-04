@@ -1,6 +1,7 @@
 import React from 'react';
 
 interface ButtonProps {
+  isLight?: boolean;
   isBold?: boolean;
   isExtraBold?: boolean;
   fontSize?: '14px' | '18px';
@@ -12,6 +13,7 @@ interface ButtonProps {
 }
 
 export const Button: React.FC<ButtonProps> = ({
+  isLight = false,
   isBold = false,
   isExtraBold = false,
   fontSize = '14px',
@@ -22,7 +24,7 @@ export const Button: React.FC<ButtonProps> = ({
   ariaLabel,
 }) => {
   const baseClasses = "bg-transparent border-none cursor-pointer transition duration-300 ease-in-out transform focus:outline-none focus:ring-2 focus:ring-blue-900";
-  const fontWeightClass = isExtraBold ? "font-extrabold" : isBold ? "font-bold" : "font-normal";
+  const fontWeightClass = isExtraBold ? "font-extrabold" : isBold ? "font-bold" : isLight ? "font-light" : "font-normal";
   const textSizeClass = fontSize === '18px' ? 'text-[18px]' : 'text-[14px]';
 
   return (

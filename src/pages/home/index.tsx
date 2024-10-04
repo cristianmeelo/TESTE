@@ -1,5 +1,5 @@
-import { Header } from "../../components/header";
-import { Button } from "../../components/button";
+import { Header } from "../../components/Header";
+import { Button } from "../../components/Button";
 import { useTheme } from "../../context/theme";
 
 export const Home = () => {
