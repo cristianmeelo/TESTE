@@ -21,7 +21,7 @@ export const Button: React.FC<ButtonProps> = ({
   onClick,
   ariaLabel,
 }) => {
-  const baseClasses = "bg-transparent border-none cursor-pointer transition duration-300 focus:outline-none focus:ring-2 focus:ring-blue-900";
+  const baseClasses = "bg-transparent border-none cursor-pointer transition duration-300 ease-in-out transform focus:outline-none focus:ring-2 focus:ring-blue-900";
   const fontWeightClass = isExtraBold ? "font-extrabold" : isBold ? "font-bold" : "font-normal";
   const textSizeClass = fontSize === '18px' ? 'text-[18px]' : 'text-[14px]';
 
@@ -30,7 +30,7 @@ export const Button: React.FC<ButtonProps> = ({
       <button
         onClick={onClick}
         aria-label={ariaLabel}
-        className={`${baseClasses} ${fontWeightClass} ${textSizeClass} hover:text-emerald-900 focus-visible:ring-2 focus-visible:ring-emerald-900`}
+        className={`${baseClasses} ${fontWeightClass} ${textSizeClass} hover:text-emerald-900 hover:scale-105 focus-visible:ring-2 focus-visible:ring-emerald-900 focus:shadow-lg focus:scale-150`}
       >
         {children}
       </button>
