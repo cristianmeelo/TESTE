@@ -16,7 +16,7 @@
 ![](https://github.com/cristianmeelo/challenge-frontend-volunteer-react/blob/master/thumbnail-mockup.png?raw=true#vitrinedev)
 
 <div align="center">
-<a href="https://challenge-frontend-engineer-react-nu.vercel.app/">
+<a href="https://cristian-melo-developer.vercel.app/">
   <img src="https://img.shields.io/badge/-CHECK%20HERE-lightblue"
   alt="Image App" >
 </a>

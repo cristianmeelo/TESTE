@@ -22,7 +22,7 @@
 Um teste técnico no processo seletivo frontend fusion que visa conseguir um cargo de voluntário, sendo o desafio desenvolver uma apresentação sobre mim.
 
 <div align="center">
-<a href="https://challenge-frontend-engineer-react-nu.vercel.app/">
+<a href="https://cristian-melo-developer.vercel.app/">
   <img src="https://img.shields.io/badge/-CONFIRA%20AQUI-lightblue" alt="Image App" >
 </a>
 </div>
@@ -73,5 +73,5 @@ Uma parte curiosa da etapa de desenvolvimento foi que o arquivo de áudio foi ge
 | --------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | :sparkles: Nome       | **Presentation**                                                                                                   |
 | :label: Tecnologias   | Vite, Typescript, TailwindCSS, React Audio Player, React Icons, Vercel Deployment, GitHub (tecnologias utilizadas) |
-| :rocket: URL          | https://cristian-melo-developer.vercel.app/                                                           |
+| :rocket: URL          | https://cristian-melo-developer.vercel.app/                                                                        |
 | :fire: Desafio        | https://github.com/Projeto-FrontEnd-Fusion/.apresentacao-pessoal-frontend                                          |
