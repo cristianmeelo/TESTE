@@ -73,5 +73,5 @@ Uma parte curiosa da etapa de desenvolvimento foi que o arquivo de áudio foi ge
 | --------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | :sparkles: Nome       | **Presentation**                                                                                                   |
 | :label: Tecnologias   | Vite, Typescript, TailwindCSS, React Audio Player, React Icons, Vercel Deployment, GitHub (tecnologias utilizadas) |
-| :rocket: URL          | https://challenge-frontend-engineer-react-nu.vercel.app/                                                           |
+| :rocket: URL          | https://cristian-melo-developer.vercel.app/                                                           |
 | :fire: Desafio        | https://github.com/Projeto-FrontEnd-Fusion/.apresentacao-pessoal-frontend                                          |

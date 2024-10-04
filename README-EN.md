@@ -74,5 +74,5 @@ A curious part of the development stage was that the audio file was generated in
 | --------------------- | -------------------------------------------------------------------------------------------------------------- |
 | :sparkles: Name       | **Presentation**                                                                                               |
 | :label: Technologies  | Vite, Typescript, TailwindCSS, React Audio Player, React Icons, Vercel Deployment, GitHub ( used Technologies) |
-| :rocket: URL          | https://challenge-frontend-engineer-react-nu.vercel.app/                                                       |
+| :rocket: URL          | https://cristian-melo-developer.vercel.app/                                                                    |
 | :fire: Challenge      | https://github.com/Projeto-FrontEnd-Fusion/.apresentacao-pessoal-frontend                                      |
