@@ -1,13 +1,13 @@
-import { NavigationProvider } from "./context/navigation"
-import { useTheme } from "./context/theme"
-import { About } from "./pages/about"
-import { Contact } from "./pages/contact"
-import { Home } from "./pages/home"
-import { Projects } from "./pages/projects"
-import { Nav } from "./components/Nav"
+import { NavigationProvider } from './context/navigation'
+import { useTheme } from './context/theme'
+import { About } from './pages/about'
+import { Contact } from './pages/contact'
+import { Home } from './pages/home'
+import { Projects } from './pages/projects'
+import { Nav } from './components/Nav'
 
 export const App = () => {
-  const { isDarkMode } = useTheme();
+  const { isDarkMode } = useTheme()
 
   return (
     <NavigationProvider>
@@ -19,7 +19,5 @@ export const App = () => {
         <Contact />
       </main>
     </NavigationProvider>
-
   )
 }
-

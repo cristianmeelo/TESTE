@@ -6,5 +6,5 @@ export const Projects = () => {
       </div>
       <div className="h-px bg-custom-gray w-full" />
     </div>
-  );
+  )
 }
