@@ -6,7 +6,7 @@ export const Home = () => {
   const { toggleDarkMode, isDarkMode } = useTheme()
 
   return (
-    <div
+    <section
       className={`flex flex-col min-h-screen ${isDarkMode ? 'bg-dark-bg text-dark-text' : 'bg-light-bg text-light-text'}`}
     >
       <div className={'absolute left-0 right-0 top-0 h-1 bg-dark-bg'} />
@@ -22,6 +22,6 @@ export const Home = () => {
           Dark Mode.
         </Button>
       </div>
-    </div>
+    </section>
   )
 }
