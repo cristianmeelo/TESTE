@@ -1,4 +1,3 @@
-import { NavigationProvider } from './context/navigation'
 import { useTheme } from './context/theme'
 import { About } from './pages/about'
 import { Contact } from './pages/contact'
@@ -11,15 +10,13 @@ export const App = () => {
   const { isDarkMode } = useTheme()
 
   return (
-    <NavigationProvider>
-      <main className={`px-12 ${isDarkMode ? 'bg-dark-bg' : 'bg-light-bg '}`}>
-        <Nav />
-        <Home />
-        <Projects />
-        <About />
-        <Contact />
-        <Footer />
-      </main>
-    </NavigationProvider>
+    <main className={`px-12 ${isDarkMode ? 'bg-dark-bg' : 'bg-light-bg '}`}>
+      <Nav />
+      <Home />
+      <Projects />
+      <About />
+      <Contact />
+      <Footer />
+    </main>
   )
 }

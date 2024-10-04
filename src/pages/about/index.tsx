@@ -5,7 +5,7 @@ import { Skills } from "./Skills";
 
 export const About = () => {
   return (
-    <section className="flex flex-col min-h-screen ">
+    <section id="about" className="flex flex-col min-h-screen ">
       <div className="flex-grow flex flex-col items-start justify-start pt-12">
         <HeaderTitle level="h2" children='About Me' />
         <Description />

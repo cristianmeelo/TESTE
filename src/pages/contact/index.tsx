@@ -6,7 +6,7 @@ export const Contact = () => {
   const { isDarkMode } = useTheme();
 
   return (
-    <section
+    <section id="contact"
       className={`flex flex-col h-96 pt-16 ${isDarkMode ? 'bg-dark-bg text-dark-text' : 'bg-light-bg text-light-text'}`}
       aria-labelledby="contact-heading"
     >
