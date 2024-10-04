@@ -11,7 +11,8 @@ export default {
         'light-text': '#000000' // Text color for light mode
       },
       fontFamily: {
-        manrope: ['Manrope', 'sans-serif']
+        manrope: ['Manrope', 'sans-serif'],
+        dotgothic: ['DotGothic16', 'sans-serif']
       }
     }
   },

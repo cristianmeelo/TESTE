@@ -32,7 +32,7 @@ export const Button: React.FC<ButtonProps> = ({
       <button
         onClick={onClick}
         aria-label={ariaLabel}
-        className={`${baseClasses} ${fontWeightClass} ${textSizeClass} hover:text-emerald-900 hover:scale-105 focus-visible:ring-2 focus-visible:ring-emerald-900 focus:shadow-lg focus:scale-150`}
+        className={`${baseClasses} ${fontWeightClass} ${textSizeClass} hover:text-emerald-900 hover:scale-105 focus-visible:ring-2 focus-visible:ring-emerald-900 focus:shadow-lg focus:scale-105`}
       >
         {children}
       </button>

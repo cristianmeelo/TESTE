@@ -25,16 +25,17 @@ export const Header = () => {
           underlineHeight='1'
         >
           {showPlayer ? 'Ok,thanks' : 'Wanna hear about me?'}
-          {showPlayer && (
-            <div className={`absolute right-0 z-10 mt-4 shadow-lg ${isDarkMode ? 'bg-dark-bg' : 'bg-light-bg'}`}>
-              <ReactAudioPlayer
-                src={url}
-                controls
-                ref={audioPlayer}
-              />
-            </div>
-          )}
         </Button>
+        {showPlayer && (
+          <div className={`absolute right-8 z-10 mt-20 bg-transparent`}>
+            <ReactAudioPlayer
+              src={url}
+              controls
+              ref={audioPlayer}
+              style={{ padding: '12px' }}
+            />
+          </div>
+        )}
       </div>
     </header>
   );
