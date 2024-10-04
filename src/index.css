@@ -22,17 +22,17 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(144, 25, 25, 0.8);
+  background: #1f1f1f;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(144, 25, 25, 0.8);
+  background: #1f1f1f;
 }
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(144, 25, 25, 0.8) transparent;
+  scrollbar-color: #1f1f1f transparent;
 }
 
 *::-webkit-scrollbar {

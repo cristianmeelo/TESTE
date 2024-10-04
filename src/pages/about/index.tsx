@@ -1,10 +1,14 @@
+import { HeaderTitle } from "../../components/HeaderTitle"
+import { Description } from "./Description"
+
 export const About = () => {
   return (
-    <div className="flex flex-col min-h-screen">
-      <div className="flex-grow flex items-center justify-center">
-        <h1 className="text-center">About</h1>
+    <section className="flex flex-col min-h-screen ">
+      <div className="flex-grow flex flex-col items-start justify-start pt-12">
+        <HeaderTitle level="h2" children='about me' />
+        <Description />
       </div>
       <div className="h-px bg-custom-gray w-full" />
-    </div>
+    </section>
   )
 }

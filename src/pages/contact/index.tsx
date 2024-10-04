@@ -7,14 +7,13 @@ export const Contact = () => {
 
   return (
     <section
-      className={`flex flex-col h-96 py-16 ${isDarkMode ? 'bg-dark-bg text-dark-text' : 'bg-light-bg text-light-text'}`}
+      className={`flex flex-col h-96 pt-16 ${isDarkMode ? 'bg-dark-bg text-dark-text' : 'bg-light-bg text-light-text'}`}
       aria-labelledby="contact-heading"
     >
       <div className="flex-grow flex items-start justify-center">
         <HeaderTitle level="h4" children="contact me" align="center" />
       </div>
-
-      <ul className="flex justify-center py-16  space-x-6 list-none" role="list" aria-label="Redes Sociais">
+      <ul className="flex justify-center py-16 pb-20  space-x-6 list-none" role="list" aria-label="Redes Sociais">
         <li>
           <a
             href="https://github.com/cristianmeelo"
@@ -74,8 +73,7 @@ export const Contact = () => {
           </a>
         </li>
       </ul>
-
-      <div className={`h-px w-full mt-4 ${isDarkMode ? 'bg-dark-text' : 'bg-custom-gray'}`} />
+      <div className={`h-px w-full mt-8 ${isDarkMode ? 'bg-dark-text' : 'bg-custom-gray'}`} />
     </section>
   );
 };

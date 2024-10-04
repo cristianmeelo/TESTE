@@ -10,7 +10,7 @@ export const Nav: React.FC = () => {
   }
 
   return (
-    <div className="fixed -left-12 top-1/2 transform -rotate-90">
+    <div className="fixed -left-20 top-1/2 transform -rotate-90">
       <nav className="flex flex-row items-center space-x-4">
         <Button
           onClick={() => handleNavigation('home')}

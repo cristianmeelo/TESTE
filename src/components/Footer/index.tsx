@@ -5,7 +5,7 @@ export const Footer = () => {
 
   return (
     <footer
-      className={`flex justify-between items-center pt-20 font-manrope ${isDarkMode ? 'bg-dark-bg text-dark-text' : 'bg-light-bg text-light-text'}`}
+      className={`flex justify-between items-center pt-28 font-manrope ${isDarkMode ? 'bg-dark-bg text-dark-text' : 'bg-light-bg text-light-text'}`}
     >
       <span className="text-[36px]" aria-label="Nome do usuário">
         cristian melo.
