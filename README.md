@@ -11,9 +11,9 @@
   </tr>
 </table>
 
-![](https://github.com/cristianmeelo/challenge-frontend-volunteer-react/blob/main/thumbnail.png?raw=true)
+![](https://github.com/cristianmeelo/challenge-frontend-volunteer-react/blob/master/thumbnail.png?raw=true)
 
-![](https://github.com/cristianmeelo/challenge-frontend-volunteer-react/blob/main/thumbnail-mockup.png?raw=true#vitrinedev)
+![](https://github.com/cristianmeelo/challenge-frontend-volunteer-react/blob/master/thumbnail-mockup.png?raw=true#vitrinedev)
 
 <br/>
 
@@ -71,7 +71,7 @@ Uma parte curiosa da etapa de desenvolvimento foi que o arquivo de áudio foi ge
 
 | :placard: Vitrine.Dev |                                                                                                                    |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| :sparkles: Nome       | ** Presentation **                                                                                                 |
+| :sparkles: Nome       | **Presentation**                                                                                                   |
 | :label: Tecnologias   | Vite, Typescript, TailwindCSS, React Audio Player, React Icons, Vercel Deployment, GitHub (tecnologias utilizadas) |
 | :rocket: URL          | https://challenge-frontend-engineer-react-nu.vercel.app/                                                           |
 | :fire: Desafio        | https://github.com/Projeto-FrontEnd-Fusion/.apresentacao-pessoal-frontend                                          |

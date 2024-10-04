@@ -11,9 +11,9 @@
   </tr>
 </table>
 
-![](https://github.com/cristianmeelo/challenge-frontend-volunteer-react/blob/main/thumbnail.png?raw=true)
+![](https://github.com/cristianmeelo/challenge-frontend-volunteer-react/blob/master/thumbnail.png?raw=true)
 
-![](https://github.com/cristianmeelo/challenge-frontend-volunteer-react/blob/main/thumbnail-mockup.png?raw=true#vitrinedev)
+![](https://github.com/cristianmeelo/challenge-frontend-volunteer-react/blob/master/thumbnail-mockup.png?raw=true#vitrinedev)
 
 <div align="center">
 <a href="https://challenge-frontend-engineer-react-nu.vercel.app/">
@@ -72,7 +72,7 @@ A curious part of the development stage was that the audio file was generated in
 
 | :placard: Vitrine.Dev |                                                                                                                |
 | --------------------- | -------------------------------------------------------------------------------------------------------------- |
-| :sparkles: Name       | ** Presentation**                                                                                              |
+| :sparkles: Name       | **Presentation**                                                                                               |
 | :label: Technologies  | Vite, Typescript, TailwindCSS, React Audio Player, React Icons, Vercel Deployment, GitHub ( used Technologies) |
 | :rocket: URL          | https://challenge-frontend-engineer-react-nu.vercel.app/                                                       |
 | :fire: Challenge      | https://github.com/Projeto-FrontEnd-Fusion/.apresentacao-pessoal-frontend                                      |
