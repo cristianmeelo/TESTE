@@ -8,7 +8,7 @@ const skills = [
   'Tailwind CSS',
   'Next.js',
   'SASS',
-  'Git'
+  'Git',
 ];
 
 export const Description: React.FC = () => {
@@ -16,8 +16,9 @@ export const Description: React.FC = () => {
 
   return (
     <section
-      className={`flex flex-col md:flex-row items-center md:items-start ${isDarkMode ? 'bg-gray-800' : 'bg-gray-100'
-        } p-8 mt-10 rounded-lg shadow-sm md:justify-center md:p-12`}
+      className={`flex flex-col md:flex-row items-center md:items-start ${
+        isDarkMode ? 'bg-gray-800' : 'bg-gray-100'
+      } p-8 mt-10 rounded-lg shadow-sm md:justify-center md:p-12`}
       aria-labelledby="description-title"
     >
       <img
@@ -28,16 +29,24 @@ export const Description: React.FC = () => {
       <div className="flex flex-col flex-grow">
         <h2
           id="description-title"
-          className={`text-[30px] font-medium text-center md:text-left ${isDarkMode ? 'text-white' : 'text-black'
-            }`}
+          className={`text-[30px] font-medium text-center md:text-left ${
+            isDarkMode ? 'text-white' : 'text-black'
+          }`}
         >
           Cristian Melo
         </h2>
         <p
-          className={`text-[14px] font-extralight text-center md:text-left ${isDarkMode ? 'text-gray-300' : 'text-black'
-            }`}
+          className={`text-[14px] font-extralight text-center md:text-left ${
+            isDarkMode ? 'text-gray-300' : 'text-black'
+          }`}
         >
-          I am a Front-End developer who enjoys creating impactful experiences for users. With expertise in React and interface design, I strive to develop robust applications that prioritize usability and efficiency. I have a keen eye for detail and empathy for the user. My experience includes projects that promote innovative solutions. Today, I work on projects worldwide, coding from my home office in the metropolitan area of Porto Alegre, Brazil.
+          I am a Front-End developer who enjoys creating impactful experiences
+          for users. With expertise in React and interface design, I strive to
+          develop robust applications that prioritize usability and efficiency.
+          I have a keen eye for detail and empathy for the user. My experience
+          includes projects that promote innovative solutions. Today, I work on
+          projects worldwide, coding from my home office in the metropolitan
+          area of Porto Alegre, Brazil.
         </p>
         <div className="mt-4">
           <h3 className="text-[16px] font-medium text-center md:text-left">

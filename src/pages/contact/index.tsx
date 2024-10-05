@@ -1,19 +1,30 @@
-import { FaGithub, FaLinkedin, FaWhatsapp, FaEnvelope, FaDownload } from 'react-icons/fa';
-import { HeaderTitle } from "../../components/HeaderTitle";
-import { useTheme } from "../../context/theme";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaWhatsapp,
+  FaEnvelope,
+  FaDownload,
+} from 'react-icons/fa';
+import { HeaderTitle } from '@/components';
+import { useTheme } from '@/context/theme';
 
-export const Contact = () => {
+export const Contact: React.FC = () => {
   const { isDarkMode } = useTheme();
 
   return (
-    <section id="contact"
+    <section
+      id="contact"
       className={`flex flex-col h-96 pt-16 ${isDarkMode ? 'bg-dark-bg text-dark-text' : 'bg-light-bg text-light-text'}`}
       aria-labelledby="contact-heading"
     >
       <div className="flex-grow flex items-start justify-center">
         <HeaderTitle level="h4" children="contact me" align="center" />
       </div>
-      <ul className="flex justify-center py-16 pb-20 space-x-6 list-none" role="list" aria-label="Redes Sociais">
+      <ul
+        className="flex justify-center py-16 pb-20 space-x-6 list-none"
+        role="list"
+        aria-label="Redes Sociais"
+      >
         <li>
           <a
             href="https://github.com/cristianmeelo"
@@ -80,10 +91,14 @@ export const Contact = () => {
           className={`flex items-center px-4 py-2 ${isDarkMode ? 'text-dark-text' : 'text-black'}`}
         >
           download CV
-          <FaDownload className={`ml-2 ${isDarkMode ? 'text-dark-text' : 'text-black'}`} />
+          <FaDownload
+            className={`ml-2 ${isDarkMode ? 'text-dark-text' : 'text-black'}`}
+          />
         </a>
       </div>
-      <div className={`h-px w-full mt-8 ${isDarkMode ? 'bg-dark-text' : 'bg-custom-gray'}`} />
+      <div
+        className={`h-px w-full mt-8 ${isDarkMode ? 'bg-dark-text' : 'bg-custom-gray'}`}
+      />
     </section>
   );
 };

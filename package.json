@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@svgr/rollup": "^8.1.0",
+    "@types/node": "^22.7.4",
     "react": "^18.3.1",
     "react-audio-player": "^0.17.0",
     "react-dom": "^18.3.1",
@@ -20,9 +21,11 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
+    "@rollup/plugin-alias": "^5.1.1",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
+    "@vitejs/plugin-react-swc": "^3.7.1",
     "ajv": "^8.17.1",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.9.0",

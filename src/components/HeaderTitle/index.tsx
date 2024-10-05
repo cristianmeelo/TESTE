@@ -1,4 +1,4 @@
-import { useTheme } from "../../context/theme";
+import { useTheme } from '../../context/theme';
 
 interface HeaderTitleProps {
   level?: 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
@@ -11,14 +11,16 @@ export const HeaderTitle: React.FC<HeaderTitleProps> = ({
   level = 'h2',
   children,
   lineWidth = '1',
-  align = 'left'
+  align = 'left',
 }) => {
   const { isDarkMode } = useTheme();
   const Tag = level;
 
   return (
     <div className="relative">
-      <Tag className={`${isDarkMode ? 'text-white' : 'text-black'} text-[30px]`}>
+      <Tag
+        className={`${isDarkMode ? 'text-white' : 'text-black'} text-[30px]`}
+      >
         {children}
       </Tag>
       <div

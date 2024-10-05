@@ -6,23 +6,23 @@ import { ReactComponent as IconBack } from '../../../assets/icon-back.svg';
 
 const skillsData = [
   {
-    title: "UI/UX Design",
-    description: "Skilled in designing user-friendly interfaces",
+    title: 'UI/UX Design',
+    description: 'Skilled in designing user-friendly interfaces',
     Icon: IconUx,
   },
   {
-    title: "Front-End Development",
-    description: "Expert in creating responsive interfaces",
+    title: 'Front-End Development',
+    description: 'Expert in creating responsive interfaces',
     Icon: IconReact,
   },
   {
-    title: "Back-End Development",
-    description: "Experience in building RESTful APIs",
+    title: 'Back-End Development',
+    description: 'Experience in building RESTful APIs',
     Icon: IconDev,
   },
   {
-    title: "Version Control",
-    description: "Proficient with Git and GitHub",
+    title: 'Version Control',
+    description: 'Proficient with Git and GitHub',
     Icon: IconBack,
   },
 ];

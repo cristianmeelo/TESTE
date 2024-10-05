@@ -1,13 +1,13 @@
-import { HeaderTitle } from "../../components/HeaderTitle";
-import { Description } from "./Description";
-import { Experiences } from "./Experiences";
-import { Skills } from "./Skills";
+import { HeaderTitle } from '@/components';
+import { Description } from './Description';
+import { Experiences } from './Experiences';
+import { Skills } from './Skills';
 
-export const About = () => {
+export const About: React.FC = () => {
   return (
     <section id="about" className="flex flex-col min-h-screen ">
       <div className="flex-grow flex flex-col items-start justify-start pt-12">
-        <HeaderTitle level="h2" children='About Me' />
+        <HeaderTitle level="h2" children="About Me" />
         <Description />
         <Skills />
         <Experiences />
