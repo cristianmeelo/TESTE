@@ -77,10 +77,10 @@ export const Contact = () => {
         <a
           href="/documents/curriculum-cristian-melo-frontend-react.pdf"
           download="curriculum-cristian-melo-frontend-react.pdf"
-          className="flex items-center text-black px-4 py-2"
+          className={`flex items-center px-4 py-2 ${isDarkMode ? 'text-dark-text' : 'text-black'}`}
         >
           download CV
-          <FaDownload className="ml-2" />
+          <FaDownload className={`ml-2 ${isDarkMode ? 'text-dark-text' : 'text-black'}`} />
         </a>
       </div>
       <div className={`h-px w-full mt-8 ${isDarkMode ? 'bg-dark-text' : 'bg-custom-gray'}`} />
