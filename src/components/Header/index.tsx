@@ -2,8 +2,8 @@ import { useState, useRef } from 'react';
 import ReactAudioPlayer from 'react-audio-player';
 
 import url from '/audio/aboutme.mp3';
-import { Button } from '../Button';
-import { useTheme } from '../../context/theme';
+import { Button } from '@/components/Button';
+import { useTheme } from '@/context/theme';
 
 export const Header = () => {
   const { isDarkMode } = useTheme();

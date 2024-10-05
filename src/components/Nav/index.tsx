@@ -1,5 +1,4 @@
-import React from 'react';
-import { Button } from '../Button';
+import { Button } from '@/components/Button';
 
 export const Nav: React.FC = () => {
   const handleNavigation = (page: string): void => {

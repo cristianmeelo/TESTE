@@ -1,4 +1,4 @@
-import { useTheme } from '../../context/theme';
+import { useTheme } from '@/context/theme';
 
 export const Footer: React.FC = () => {
   const { isDarkMode } = useTheme();

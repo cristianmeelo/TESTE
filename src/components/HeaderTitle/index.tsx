@@ -1,4 +1,4 @@
-import { useTheme } from '../../context/theme';
+import { useTheme } from '@/context/theme';
 
 interface HeaderTitleProps {
   level?: 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
