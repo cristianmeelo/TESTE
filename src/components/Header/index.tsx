@@ -31,7 +31,7 @@ export const Header = () => {
           underlineFirstLine={!showPlayer}
           underlineHeight="1"
         >
-          {showPlayer ? 'Ok,thanks' : 'Wanna hear about me?'}
+          {showPlayer ? 'Ok,thanks' : 'Click to listen about me'}
         </Button>
         {showPlayer && (
           <div className={`absolute right-8 z-10 mt-20 bg-transparent`}>
