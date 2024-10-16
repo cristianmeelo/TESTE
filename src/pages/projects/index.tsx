@@ -1,4 +1,5 @@
 import { Button, HeaderTitle } from '@/components';
+import { useTheme } from '@/context/theme';
 import { useState } from 'react';
 
 const projectsData = [
@@ -91,7 +92,7 @@ const projectsData = [
     github: 'https://github.com/cristianmeelo/next-app-pokenext',
   },
   {
-    title: 'TYpe Fast',
+    title: 'Type Fast',
     description: 'Train you typing speed with 10 randomly generated phrases, if it helps, switch the theme between dark and light',
     imageUrl: 'https://github.com/cristianmeelo/js-app-type-fast/raw/main/thumbnail-mockup.png?raw=true#vitrinedev',
     techStack: ['html', 'css', 'javascript', 'vercel deployment'],
@@ -117,6 +118,7 @@ const projectsData = [
 ];
 
 export const Projects: React.FC = () => {
+  const { isDarkMode } = useTheme();
   const [visibleProjects, setVisibleProjects] = useState(8);
 
   const handleShowMoreProjects = () => {
@@ -141,14 +143,13 @@ export const Projects: React.FC = () => {
                 alt={project.title}
                 className="object-cover w-full h-full"
               />
-
             </div>
             <div className="flex-grow p-4 flex flex-col justify-between">
               <div>
-                <h2 className="text-black font-extrabold text-lg">
+                <h2 className={`font-extrabold text-lg ${isDarkMode ? ' text-dark-text' : ' text-light-text'} `}>
                   {project.title}
                 </h2>
-                <p className="text-black text-base">{project.description}</p>
+                <p className={`text-base ${isDarkMode ? ' text-dark-text' : ' text-light-text'}`}>{project.description}</p>
                 {/* <p className="text-gray-400 text-sm mt-2">
                     Lorem ipsum dolor sit amet.
                   </p> */}
@@ -169,7 +170,7 @@ export const Projects: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="See Project"
-                  className="bg-black text-white py-2 px-4 rounded hover:bg-slate-400"
+                  className={`py-2 px-4 rounded hover:bg-slate-400 ${isDarkMode ? 'bg-light-bg text-light-text' : ' bg-dark-bg text-dark-text '}`}
                 >
                   See Project
                 </a>
@@ -188,7 +189,8 @@ export const Projects: React.FC = () => {
         ))}
       </div>
       {visibleProjects < projectsData.length && (
-        <div className="flex items-center justify-center w-full pb-12">
+        <div className={`flex items-center justify-center w-full pb-12 ${isDarkMode ? 'text-white' : 'text-black'
+          }`}>
           <Button
             onClick={handleShowMoreProjects}
             ariaLabel="See more projects"
