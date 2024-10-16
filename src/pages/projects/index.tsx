@@ -17,7 +17,7 @@ export const Projects: React.FC = () => {
       <HeaderTitle level="h2" children="personal projects" align="right" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-4 py-28">
         {projectsData.slice(0, visibleProjects).map((project, index) => (
-          <div key={index} className={`flex flex-col sm:flex-row md:flex-col xl:flex-row  ${isDarkMode ? '' : 'border border-gray-300'} rounded-lg shadow-lg overflow-hidden ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}>
+          <div key={index} className={`flex flex-col sm:flex-row md:flex-col xl:flex-row  ${isDarkMode ? '' : 'border border-gray-300'} rounded-lg shadow-lg overflow-hidden ${isDarkMode ? 'bg-gray-700' : 'bg-white'}`}>
             <div className="w-full sm:w-full xl:w-1/3">
               <img
                 src={project.imageUrl}
