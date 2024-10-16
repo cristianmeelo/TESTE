@@ -18,16 +18,16 @@ export const Nav: React.FC = () => {
           Contact
         </Button>
         <Button
-          onClick={() => handleNavigation('about')}
-          ariaLabel="Go to About"
-        >
-          About
-        </Button>
-        <Button
           onClick={() => handleNavigation('projects')}
           ariaLabel="Go to Projects"
         >
           Projects
+        </Button>
+        <Button
+          onClick={() => handleNavigation('about')}
+          ariaLabel="Go to About"
+        >
+          About
         </Button>
         <Button
           onClick={() => handleNavigation('home')}
