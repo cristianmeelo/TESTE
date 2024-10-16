@@ -14,7 +14,7 @@ export const Contact: React.FC = () => {
   return (
     <section
       id="contact"
-      className={`flex flex-col h-96 pt-16 ${isDarkMode ? 'bg-dark-bg text-dark-text' : 'bg-light-bg text-light-text'}`}
+      className={`flex flex-col h-96 pt-16 hover:text-emerald-500 ${isDarkMode ? 'bg-dark-bg text-dark-text' : 'bg-light-bg text-light-text'}`}
       aria-labelledby="contact-heading"
     >
       <div className="flex-grow flex items-start justify-center">
@@ -34,7 +34,7 @@ export const Contact: React.FC = () => {
             className="focus-visible:ring-2 focus-visible:ring-emerald-500"
           >
             <FaGithub
-              className={`text-4xl ${isDarkMode ? 'text-dark-text' : 'text-black'}`}
+              className={`text-4xl hover:text-emerald-900 hover:scale-105 ${isDarkMode ? 'text-dark-text' : 'text-black'}`}
               aria-hidden="true"
               focusable="false"
             />
@@ -49,7 +49,7 @@ export const Contact: React.FC = () => {
             className="focus-visible:ring-2 focus-visible:ring-emerald-500"
           >
             <FaLinkedin
-              className={`text-4xl ${isDarkMode ? 'text-dark-text' : 'text-black'}`}
+              className={`text-4xl hover:text-emerald-900 hover:scale-105 ${isDarkMode ? 'text-dark-text' : 'text-black hover:text-black-700'}`}
               aria-hidden="true"
               focusable="false"
             />
@@ -61,10 +61,10 @@ export const Contact: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp"
-            className="focus-visible:ring-2 focus-visible:ring-emerald-500"
+            className="focus-visible:ring-2 focus-visible:ring-emerald-900"
           >
             <FaWhatsapp
-              className={`text-4xl ${isDarkMode ? 'text-dark-text' : 'text-black'}`}
+              className={`text-4xl hover:text-emerald-900 hover:scale-105 ${isDarkMode ? 'text-dark-text' : 'text-black'}`}
               aria-hidden="true"
               focusable="false"
             />
@@ -77,27 +77,27 @@ export const Contact: React.FC = () => {
             className="focus-visible:ring-2 focus-visible:ring-emerald-500"
           >
             <FaEnvelope
-              className={`text-4xl ${isDarkMode ? 'text-dark-text' : 'text-black'}`}
+              className={`text-4xl hover:text-emerald-900 hover:scale-105 ${isDarkMode ? 'text-dark-text' : 'text-black'}`}
               aria-hidden="true"
               focusable="false"
             />
           </a>
         </li>
       </ul>
-      <div className="flex flex-row w-full items-center justify-center">
+      <div className="flex flex-row w-full items-center justify-center hover:text-emerald-900 hover:scale-105">
         <a
           href="/documents/curriculum-cristian-melo-frontend-react.pdf"
           download="curriculum-cristian-melo-frontend-react.pdf"
-          className={`flex items-center px-4 py-2 ${isDarkMode ? 'text-dark-text' : 'text-black'}`}
+          className={`flex items-center px-4 py-2  ${isDarkMode ? 'text-dark-text' : 'text-black'}`}
         >
           download CV
           <FaDownload
-            className={`ml-2 ${isDarkMode ? 'text-dark-text' : 'text-black'}`}
+            className={`ml-2  ${isDarkMode ? 'text-dark-text' : 'text-black'}`}
           />
         </a>
       </div>
       <div
-        className={`h-px w-full mt-8 ${isDarkMode ? 'bg-dark-text' : 'bg-custom-gray'}`}
+        className={`h-px w-full mt-8  ${isDarkMode ? 'bg-dark-text' : 'bg-custom-gray'}`}
       />
     </section>
   );
