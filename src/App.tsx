@@ -8,8 +8,8 @@ export const App = () => {
     <main className={`px-12 ${isDarkMode ? 'bg-dark-bg' : 'bg-light-bg '}`}>
       <Nav />
       <Home />
-      <Projects />
       <About />
+      <Projects />
       <Contact />
       <Footer />
     </main>
